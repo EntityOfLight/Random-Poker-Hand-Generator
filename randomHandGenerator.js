@@ -1,0 +1,13 @@
+let cardDeck = ['Ace of Spades', 'Ace of Clubs', 'Ace of Hearts', 'Ace of Diamonds'];
+
+//console.log(cardDeck);
+
+let cardOne = Math.floor(Math.random()*52);
+let cardTwo = Math.floor(Math.random()*52);
+let theCards = (`${cardOne}, ${cardTwo}`);
+while (cardOne === cardTwo) {
+       Math.floor(Math.random()*52) = cardTwo;
+       }
+console.log(theCards);
+
+//Thinking that I can use cardOne & cardTwo values to maybe call those specific values from the array.

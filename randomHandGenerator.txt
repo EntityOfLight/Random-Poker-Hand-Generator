@@ -1,5 +1,5 @@
 let cardDeck = ['Ace of Spades', 'Ace of Clubs', 'Ace of Hearts', 'Ace of Diamonds'];
-
+//OBJECTIVE1 Complete array.
 //console.log(cardDeck);
 
 let cardOne = Math.floor(Math.random()*52);
